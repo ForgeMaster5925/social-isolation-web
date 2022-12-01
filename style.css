@@ -1,0 +1,10 @@
+nav{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Dropdown{
+    display: flex;
+    flex-direction: column;
+}
