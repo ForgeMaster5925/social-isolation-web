@@ -10,7 +10,7 @@ a {
 }
 
 main {
-    max-width: 1280px;
+    max-width: 100%;
 }
 nav {
     display: flex;
@@ -19,11 +19,9 @@ nav {
 }
 .Dropdown{
     display: flex;
-    width: 40%;
+    width: 100%;
     flex-direction: column;
-    align-self: flex-end;
-    width: 100px;
-    margin-right: 20px;
+    align-items: flex-end;
 }
 
 .logo img {
@@ -31,10 +29,15 @@ nav {
     margin-left:50px;
 }
 
-.header h1 {
+.header {
+    display: flex;
+}
+
+.header > h1 {
+    width: 75vw;
     text-align: center;
-    align-items: center;
-    margin-left: 520px
+    margin: 0 auto;
+    height: 200px;
 }
 
 .greybox {
@@ -56,6 +59,7 @@ nav {
     text-align:center;
     width:50%;
     align-self: center;
+    font-size: 60px;
 }
 
 .heroimage {
@@ -75,8 +79,23 @@ nav {
     margin: 0 auto;
 }
 
+.flex2 {
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .indexsection {
     margin: 1rem;
+    width: 60%;
+}
+
+.flex-end {
+    display: flex;
+    align-self: flex-end;
+    position: relative;
+    left: -30px;
 }
 
 .indexsection h2 {
