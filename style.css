@@ -33,6 +33,22 @@ nav {
     display: flex;
 }
 
+section {
+    display: flex;
+}
+
+.solutionsheader {
+    display: flex;
+}
+
+.solutionsprevious {
+    width: 20%;
+}
+
+.solutionsh2 {
+    width: 75%;
+}
+
 .header > h1 {
     width: 75vw;
     text-align: center;
