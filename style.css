@@ -33,18 +33,6 @@ nav {
     display: flex;
 }
 
-section {
-    display: flex;
-}
-
-.solutionsheader {
-    display: flex;
-}
-
-.solutionsprevious {
-    width: 20%;
-}
-
 .solutionsh2 {
     width: 75%;
 }
@@ -114,6 +102,10 @@ section {
     left: -30px;
 }
 
+.arrow img{
+    height: var(--size);
+}
+
 .indexsection h2 {
     margin-bottom: 1rem;
 }
@@ -128,6 +120,9 @@ section {
     background: #867C7C;
     border-radius: 25px;
     padding: 1.2rem 0.8rem;
+    --size: 20px;
+    font-size: var(--size);
+    margin: auto 0;
 }
 
 .flex {
