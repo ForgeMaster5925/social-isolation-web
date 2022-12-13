@@ -9,10 +9,6 @@ a {
     text-decoration: none;
 }
 
-main {
-    max-width: 100%;
-}
-
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +33,7 @@ nav {
 
 .solutionsh2 {
     text-align: center;
-    /* width: 75%; */
+    margin-bottom: 1rem;
 }
 
 .header>h1 {
@@ -160,7 +156,6 @@ footer {
     align-items: flex-start;
     flex-direction: column;
     gap: 1rem;
-    /* min-width: 20%; */
 }
 
 .divider {
@@ -192,6 +187,15 @@ footer {
     font-size: var(--size);
 }
 
+.previouspage2 {
+    background: #867C7C;
+    border-radius: 25px;
+    padding: 1.2rem 0.8rem;
+    --size: 20px;
+    font-size: var(--size);
+    margin-top: 1rem;
+}
+
 .greybox2 {
     background-color: #6F6969;
     display: flex;
@@ -205,6 +209,7 @@ footer {
     background: #D9D9D9;
     border-radius: 25px;
     padding: 0.8rem;
+    text-align: center;
 }
 
 .solutionscontent2-p p {
@@ -242,15 +247,6 @@ footer {
     justify-content: center;
 }
 
-[class$="-p"]:not(.solutionscontent6-p) p {
-    width: 300px;
-}
-
-[class$="-p"]:not(.solutionscontent6-p) {
-    display: flex;
-    justify-content: center;
-}
-
 .solutionsnext {
     margin-top: 1rem;
     width: 95%;
@@ -264,21 +260,29 @@ footer {
 .image1 {
     width: 300px;
     height: 300px;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
 }
 
 .image2 {
     width: 300px;
     height: 300px;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
 }
 
 .image3 {
     width: 300px;
     height: 300px;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
 }
 
 .image4 {
     width: 300px;
     height: 300px;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
 }
 
 .Reversearrow img {
@@ -295,3 +299,82 @@ footer {
     padding: 1rem;
 }
 
+.changehero {
+    background-image: url(./images/pexels-nataliya-vaitkevich-6120220.jpg);
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.Therapy {
+    width: 300px;
+    height: 300px;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.hand {
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.changeprevious {
+    margin-top: 1rem;
+    width: 95%;
+    margin-bottom: 1.7rem;
+}
+
+.changecontent1-p {
+    background: #D9D9D9;
+    border-radius: 25px;
+    padding: 0.8rem;
+}
+
+.changecontent2-p {
+    background: #D9D9D9;
+    border-radius: 25px;
+    padding: 0.8rem;
+}
+
+.flex-containing {
+    width: 100%;
+}
+
+.changecontent1 {
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.flex-containing2 {
+    width: 100%;
+}
+
+.changecontent2 {
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.changep {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.changep2 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.changecontent1-h3 {
+    margin-bottom: 1rem;
+}
+
+.changecontent2-h3 {
+    margin-bottom: 1rem;
+}
+
+.solutionscontent6-h3 {
+    margin-bottom: 1rem;
+}
