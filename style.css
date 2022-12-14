@@ -135,6 +135,7 @@ nav {
 .indexsection {
     margin: 1rem;
     width: 60%;
+    font-size: 20px;
 }
 
 .flex-end {
@@ -263,24 +264,28 @@ footer {
     background: #D9D9D9;
     border-radius: 25px;
     padding: 0.8rem;
+    font-size: 24px;
 }
 
 .solutionscontent3-p p {
     background: #D9D9D9;
     border-radius: 25px;
     padding: 0.8rem;
+    font-size: 24px;
 }
 
 .solutionscontent4-p p {
     background: #D9D9D9;
     border-radius: 25px;
     padding: 0.8rem;
+    font-size: 24px;
 }
 
 .solutionscontent5-p p {
     background: #D9D9D9;
     border-radius: 25px;
     padding: 0.8rem;
+    font-size: 24px;
 }
 
 .solutionscontent6-p {
@@ -376,12 +381,14 @@ footer {
     background: #D9D9D9;
     border-radius: 25px;
     padding: 0.8rem;
+    font-size: 28px;
 }
 
 .changecontent2-p {
     background: #D9D9D9;
     border-radius: 25px;
     padding: 0.8rem;
+    font-size: 28px;
 }
 
 .flex-containing {
