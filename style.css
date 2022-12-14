@@ -15,11 +15,54 @@ nav {
     justify-content: space-between;
 }
 
-.Dropdown {
+.Navbar {
     display: flex;
     width: 100%;
-    flex-direction: column;
-    align-items: flex-end;
+}
+
+.Navbar-content {
+    display: flex;
+    width: 100%;
+    gap: 4rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.NavS {
+    color: gray;
+    background-color: #dde9ee;
+    width: 15%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10em;
+    transition: 500ms;
+    color: rgb(57, 126, 57);
+    border: .5px solid gray;
+}
+
+.NavS:hover {
+    background: rgb(203, 187, 187);
+    transition: 100ms;
+    color: rgb(57, 126, 57);
+    outline: 5px solid gray;
+}
+
+.NavC {
+    color: gray;
+    background-color: #dde9ee;
+    width: 15%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10em;
+    transition: 500ms;
+    border: .5px solid gray;
+}
+
+.NavC:hover {
+    background: rgb(203, 187, 187);
+    transition: 100ms;
+    color: rgb(57, 126, 57);
+    outline: 5px solid gray;
 }
 
 .logo img {
@@ -203,6 +246,10 @@ footer {
     max-width: 100%;
     height: 20px;
     margin: 0 auto;
+}
+
+.solutionscontent1 {
+    text-align: center;
 }
 
 .solutionscontent1 p {
