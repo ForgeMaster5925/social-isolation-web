@@ -114,6 +114,17 @@ nav {
         font-size: 4.5vh;
         width: 90% !important;
     }
+    /* .footer img {
+        height: 100px;
+    } */
+    .solutionsh2 {
+        padding-top: 3rem;
+    }
+    .flex-container img {
+        max-width: 190px;
+        width: 190px;
+        object-fit: cover;
+    }
 }
 
 .logo-text {
