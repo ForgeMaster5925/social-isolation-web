@@ -42,6 +42,9 @@
         width: 190px;
         object-fit: cover;
     }
+    .changehero {
+        height: 45vh !important;
+    }
 }
 
 * {
